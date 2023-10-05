@@ -1,0 +1,241 @@
+.lists {
+    margin: 0;
+    height: 60px;
+    background: #383A45;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.lists li {
+    width: 165px;
+    height: 21px;
+    left: 100px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.lists :hover {
+    left: 100px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    list-style: none;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #545662;
+}
+
+.proces {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 26px;
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.icons {
+    display: flex;
+    gap: 43px;
+    margin-left: 85px;
+    gap: -31px;
+    position: relative;
+    margin-top: -18px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 57px;
+}
+
+.ellipse {
+    width: 20px;
+    height: 20px;
+    background: #F5961B;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+}
+
+.shadow {
+    width: 20px;
+    height: 20px;
+    background: #F5961B;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    box-shadow: red;
+}
+
+
+.rectangle {
+    /* width: 144px; */
+    width: 68px;
+    height: 4px;
+    margin-left: 30px;
+    background: red;
+    top: 55%;
+    position: absolute;
+}
+
+.addImg {
+    width: 37px;
+    height: 35px;
+}
+
+.addElipse {
+    width: 20px;
+    height: 20px;
+    left: 69.8%;
+    background: #12B352;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 71px;
+    color: white;
+    border-radius: 50%;
+    font-size: 31px;
+    line-height: 0.8vw;
+    cursor: pointer;
+}
+
+.ok {
+    width: 20px;
+    height: 20px;
+    left: 71.5%;
+    background: #12B352;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 205px;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 0.8vw;
+    cursor: pointer;
+}
+
+.pro {
+    width: 172px;
+    height: 32px;
+    left: 739px;
+    top: 153px;
+    display: flex;
+    align-items: center;
+    background: #383A45;
+    border-radius: 5px;
+}
+
+.pro p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: -6px;
+    color: #FFFFFF;
+}
+
+.box {
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus {
+    width: 20px;
+    height: 21px;
+    border: 1px solid #F5961B;
+    border-radius: 50%;
+    color: #F5961B;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 1vw;
+}
+
+.whiteBox {
+    width: 119px;
+    height: 67px;
+    margin-left: 31%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pro input {
+    width: 83px;
+    height: 24px;
+    left: 739px;
+    top: 153px;
+    display: flex;
+    align-items: center;
+    background: #383A45;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+}
+
+.pro input:focus {
+    outline: none;
+    color: white;
+}
+
+.addChangeColor {
+    position: absolute;
+    bottom: 430px;
+    z-index: 100;
+    left: 60%;
+}
+
+/* .rectangle {
+    width: 121px;
+} */
+
+.nn {
+    color: red;
+}
+
+.colorBox {
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+}
+
+.line {
+    border: 1px solid #000000;
+    margin-top: 7%;
+}
